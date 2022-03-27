@@ -31,7 +31,7 @@ async def UploadVideo(bot: Client, cb: CallbackQuery, merged_vid_path: str, widt
                 reply_markup=InlineKeyboardMarkup(
                     [
                         
-                         InlineKeyboardButton("Developer", url="https://t.me/YourX")]
+                         [InlineKeyboardButton("Developer", url="https://t.me/YourX")]
                     ]
                 )
             )
